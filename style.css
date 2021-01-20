@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background: #282a36;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+header{
+    padding: 32px;
+    border-bottom: solid 1px #333;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+
+.links {
+    text-align: center;
+    
+}
+
+.links a{   
+    color: white;
+    font-size: 18px;
+    line-height:28px;
+    margin: 0 16px;
+    padding-bottom:3px;
+    text-decoration: none;
+
+}
+.links a:hover{
+    color: rgb(119, 153, 190);
+    transition: 200ms;
+}
+
+#wrapper{
+    text-align: center;
+    padding: 32px;
+}
+#wrapper img{
+    border-radius:50%;
+    width: 15%;
+    border: 5px solid rgb(119, 153, 190);
+
+}
+#wrapper h1{
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+
+}
+#wrapper h2{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    margin-top: 8px;
+    opacity: 0.8;
+}
+.espaco_bottom{
+
+    padding-bottom: 32px;
+
+}
+
+#sobre{
+    padding: 32px;
+    border-top: solid 1px #333;
+}
+
+#sobre h1{
+    text-align: center;
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+
+}
+
+#sobre p{
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+    margin-top: 8px;
+}
+
+#myProgress {
+    width: 30%;
+    height: 25px;
+    background-color: grey;
+  }
+  
+#myBar {
+    width: 80%;
+    height: 25px;
+    background-color: rgb(119, 153, 190);
+  }
+#myBar2 {
+    width: 45%;
+    height: 25px;
+    background-color: rgb(119, 153, 190);
+  }
+#myBar3 {
+    width: 50%;
+    height: 25px;
+    background-color: rgb(119, 153, 190);
+  }
+
+#skills{
+    padding: 32px;
+    border-top: solid 1px #333;
+}
+
+#skills h1{
+    text-align: center;
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+    padding-bottom: 22px;
+
+
+}
+
+#barProggress{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    
+}
+#barProggress i{
+    margin-right: 20px;
+    
+}
+
+#experiencias{
+    padding: 32px;
+    border-top: solid 1px #333;
+}
+
+#experiencias h1{
+    text-align: center;
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+    padding-bottom: 28px;
+
+}
+#experiencias h3{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+    opacity: 0.8;
+
+}
+
+#experiencias p{
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+    margin-top: 8px;
+    padding-bottom: 25px;
+}
+
+#experiencias div{
+    text-align: center;
+
+}
+
+hr{
+    width: 500px;
+    height: 0.6px;
+    background: white;
+    margin: auto;
+}
+
+.footer{
+    background: rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.footer div{
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    width: 100%;
+    max-width: 100%;
+}
+
+
