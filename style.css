@@ -59,7 +59,7 @@ header{
     line-height: 34px;
     font-weight: normal;
     margin-top: 8px;
-    opacity: 0.8;
+    
 }
 .espaco_bottom{
 
@@ -155,7 +155,7 @@ header{
     text-align: center;
     font-weight: bold;
     padding-bottom: 20px;
-    opacity: 0.8;
+    
 
 }
 
@@ -191,6 +191,70 @@ hr{
     padding-bottom: 20px;
     width: 100%;
     max-width: 100%;
+}
+
+.checkbtn{
+    font-size: 40px;
+    color: white;
+    float: right;
+    margin-top: -20px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+@media (max-width:858px){
+    .checkbtn {
+        display: block;
+    }
+    .menu{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background:rgba(0, 0, 0, 0.8); 
+        top: 65px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    header div a{
+        display: block;
+        margin: 50px 0;
+        line-height: 35px !important;
+        font-size: 25px !important;
+    }
+
+    a:active, a:hover{
+        background: none;
+        color: rgba(0, 0, 0, 0.8);
+    }
+
+    #check:checked ~ div{
+        left: 0;
+
+    }
+   
+}
+@media (max-width: 1500px) and (min-width: 500px) {
+    #wrapper img {
+        width: 250px;
+
+    }
+
+}
+@media (max-width:500px){
+    #wrapper img {
+        width: 150px;
+    }
+}
+
+@media (max-width:500px){
+    hr{
+        width: auto;
+    }
 }
 
 
